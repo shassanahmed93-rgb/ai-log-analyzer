@@ -27,3 +27,9 @@ Open `index.html` in a modern browser or run `node test.mjs` with Node.js 20+. T
 ## Scope
 
 Synthetic workload with a single injected indicator. Runtime varies by device. The workflow currently uses rules or templates and has no model integration.
+
+## What this demonstrates
+
+**Demonstrate bounded log processing and reproducible detections.** The positive fixture scans one million generated events and returns the injected event index. The control removes the injection. Treat elapsed time as a local observation. The test does not measure SIEM ingestion or production throughput.
+
+[Reference guidance](https://sigmahq.io/docs/basics/rules.html)
